@@ -1,0 +1,104 @@
+{
+  "access": [
+    {
+      "groupByEmail": "product-data-analysts@tabby.ai",
+      "role": "WRITER"
+    },
+    {
+      "role": "WRITER",
+      "specialGroup": "projectWriters"
+    },
+    {
+      "role": "OWNER",
+      "specialGroup": "projectOwners"
+    },
+    {
+      "groupByEmail": "chiefs@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "cx-data-analysts@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "data-partners@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "ml-engineers@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "portfolio-team@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "product-developers@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "product-developers@tabby.sa",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "risk-data-analysts@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "risk-data-analysts@tabby.sa",
+      "role": "READER"
+    },
+    {
+      "groupByEmail": "risk-developers@tabby.ai",
+      "role": "READER"
+    },
+    {
+      "role": "READER",
+      "specialGroup": "projectReaders"
+    },
+    {
+      "role": "READER",
+      "userByEmail": "tabby-dp-airflow-analytics-sa@tabby-dp.iam.gserviceaccount.com"
+    },
+    {
+      "role": "READER",
+      "userByEmail": "tabby-dp-airflow-ml-sa@tabby-dp.iam.gserviceaccount.com"
+    },
+    {
+      "role": "READER",
+      "userByEmail": "tabby-dp-airflow-sp-preprod-sa@tabby-dp.iam.gserviceaccount.com"
+    },
+    {
+      "role": "READER",
+      "userByEmail": "tabby-dp-airflow-sp-sa@tabby-dp.iam.gserviceaccount.com"
+    },
+    {
+      "role": "READER",
+      "userByEmail": "tabby-dp-metabase-cxeyes-sa@tabby-dp.iam.gserviceaccount.com"
+    },
+    {
+      "role": "READER",
+      "userByEmail": "tabby-dp-vertex-execs-sa@tabby-dp.iam.gserviceaccount.com"
+    },
+    {
+      "role": "READER",
+      "userByEmail": "tabby-prod-ads-oleg-sa@tabbyai.iam.gserviceaccount.com"
+    }
+  ],
+  "creationTime": "1706813987215",
+  "datasetReference": {
+    "datasetId": "merchants_datamarts",
+    "projectId": "tabby-dp"
+  },
+  "description": "Analytical data marts of the service for working with merchants",
+  "etag": "/QtBgvaimUgagj5/Yvi3Ng==",
+  "id": "tabby-dp:merchants_datamarts",
+  "isCaseInsensitive": true,
+  "kind": "bigquery#dataset",
+  "lastModifiedTime": "1772042147699",
+  "location": "me-central2",
+  "maxTimeTravelHours": "168",
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/tabby-dp/datasets/merchants_datamarts",
+  "storageBillingModel": "PHYSICAL",
+  "type": "DEFAULT"
+}
